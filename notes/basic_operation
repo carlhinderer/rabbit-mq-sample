@@ -1,0 +1,36 @@
+---------------------------------------------------------
+BASIC OPERATION
+---------------------------------------------------------
+
+- Installation
+
+    Run scrips/rabbit-ubuntu-setup.sh to install Erlang and RabbitMQ.
+
+
+
+- Install RabbitMQ Management Plugins
+
+    $ sudo rabbitmq-plugins enable rabbitmq_management
+
+  Now, the management dashboard will be started along with rabbit as system startup.
+    By default, this is on port 15672.
+
+    # Check that the port is in use
+    $ ss -tunelp | grep 15672
+
+    # Navigate to dashboard
+    http://localhost:15672
+
+  The default account is:
+
+    u: guest
+    p: guest
+
+  To add a new account, so that the dashboard can be accessed over the network:
+
+    $ rabbitmqctl add_user admin strongPassword
+    $ rabbitmqctl set_user_tags admin administrator
+
+  For additional user management commands:
+
+    https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-18-04-lts/
