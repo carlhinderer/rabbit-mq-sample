@@ -1,0 +1,63 @@
+---------------------------------------------------------
+RABBITMQ FUNDAMENTALS
+---------------------------------------------------------
+
+- 3 Widely Used Messaging Protocols
+
+    1. STOMP - Simple, not fully-featured
+
+    2. MQTT  - Lightweight, used for IoT, telemetry, and other bandwidth-constrained environments
+
+    3. AMQP  - General purpose and fully-featured
+
+
+
+- RabbitMQ Features
+
+    - Open Source Message Broker
+    - Most popular AMQP implementation
+    - Written in Erlang
+    - Support for fault tolerance and scalability
+    - Allows multiple communication channels inside a single TCP connection
+
+
+
+- Architecture
+
+    PUBLISHER  --->  EXCHANGE  --BINDING-->  QUEUE  ---> SUBSCRIBER
+
+    PUBLISHER  --->  EXCHANGE  --BINDING-->  QUEUE  ---> SUBSCRIBER
+
+
+
+- 4 Exchange Types
+
+    1. Direct Exchange  - amq.direct and Empty String
+
+    2. Fanout Exchange  - amq.fanout
+
+    3. Topic Exchange   - amq.topic
+
+    4. Headers Exchange - amq.match and amq.headers
+
+
+
+- Queue Properties
+
+    Name         - Name of queue
+    Durable      - Whether to persist the queue to disk
+    Exclusive    - Whether to delete queue if not used any more
+    Auto-Delete  - Whether to delete queue if there are no more subscribers
+
+
+
+- Topics
+
+    - Optional 'subject' part of messages
+    - Defined as 'routing_key' for message grouping
+    - Formatted like 'app.logs.error'
+
+
+
+- By default, a message is sent to the 'Default Exchange', which sends messages to all 
+    queues.

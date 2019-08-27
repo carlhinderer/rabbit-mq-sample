@@ -10,6 +10,8 @@ BASIC OPERATION
 
 - Install RabbitMQ Management Plugins
 
+  Install the management plugin.
+
     $ sudo rabbitmq-plugins enable rabbitmq_management
 
   Now, the management dashboard will be started along with rabbit as system startup.
@@ -34,3 +36,22 @@ BASIC OPERATION
   For additional user management commands:
 
     https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-18-04-lts/
+
+
+
+- Starting RabbitMQ
+
+    The server will run at startup as a non-privileged user 'rabbitmq'.
+
+      # Start the server manually
+      $ sudo service rabbitmq-server start
+
+      # Stop the server manually
+      $ sudo service rabbitmq-server stop
+
+      # Check the status of the server
+      $ sudo service rabbitmq-server status
+
+    For advanced configuration and management instructions:
+
+      https://www.rabbitmq.com/install-debian.html
