@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------
+|  CHAPTER 2 - AMQP                                                   |
+-----------------------------------------------------------------------
+
+- AMQP As An RPC Transport
+
+    - Kicking off the conversation
+
+    - Tuning in to the right channel
+
+
+
+- AMQP's RPC Frame Structure
+
+    - AMQP frame components
+
+    - Types of frames
+
+    - Marshalling messages into frames
+
+    - Anatomy of a message frame
+
+    - The content header frame
+
+    - The body frame
+
+
+
+- Putting the Protocol to Use
+
+    - Declaring an exchange
+
+    - Declaring a queue
+
+    - Binding a queue to an exchange
+
+    - Publishing a message to RabbitMQ
+
+    - Consuming messages from RabbitMQ
+
+
+
+- Writing a Message Publisher in Python
+
+
+
+- Getting Messages from RabbitMQ

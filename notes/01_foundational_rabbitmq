@@ -1,0 +1,29 @@
+-----------------------------------------------------------------------
+|  CHAPTER 1 - FOUNDATIONAL RABBITMQ                                  |
+-----------------------------------------------------------------------
+
+- RabbitMQ's Features and Benefits
+
+    - RabbitMQ and Erlang
+
+    - RabbitMQ and AMQP
+
+
+
+- How is Rabbit Used?
+
+
+
+- Advantages of Loosely Coupled Architectures
+
+    - Decoupling your application
+
+    - Decoupling database writes
+
+    - Seamlessly adding new functionality
+
+    - Replication of data and events
+
+    - Multi-master federation of data and events
+
+    - The AMQP Model
