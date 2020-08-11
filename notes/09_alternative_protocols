@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------
+|  CHAPTER 9 - USING ALTERNATIVE PROTOCOLS                            |
+-----------------------------------------------------------------------
+
+- MQTT and RabbitMQ
+
+    - The MQTT Protocol
+
+    - Publishing via MQTT
+
+    - MQTT Subscribers
+
+    - MQTT Plugin Configuration
+
+
+
+- STOMP and RabbitMQ
+
+    - The STOMP Protocol
+
+    - Publishing Messages
+
+    - Consuming Messages
+
+    - Configuring the STOMP Plugin
+
+    - Using STOMP in the Web Browser
+
+
+
+- Stateless Publishing via HTTP
+
+    - How statelessd came to be
+
+    - Using statelessd
+
+    - Operational architecture
+
+    - Publishing messages via statelessd

@@ -1,0 +1,31 @@
+-----------------------------------------------------------------------
+|  CHAPTER 8 - CROSS-CLUSTER MESSAGE DISTRIBUTION                     |
+-----------------------------------------------------------------------
+
+- Federating Exchanges and Queues
+
+    - Federated exchanges
+
+    - Federated queues
+
+
+
+- Creating the RabbitMQ Virtual Machines
+
+    - Creating the first instance
+
+    - Duplicating the EC2 instance
+
+
+
+- Connecting Upstream
+
+    - Defining federation upstreams
+
+    - Defining a policy
+
+    - Leveraging upstream sets
+
+    - Bidirectional federated exchanges
+
+    - Federation for cluster upgrades

@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------
+|  CHAPTER 7 - SCALING RABBITMQ WITH CLUSTERS                         |
+-----------------------------------------------------------------------
+
+- About Clusters
+
+    - Clusters and the Management UI
+
+    - Cluster Node Types
+
+    - Clusters and Queue Behavior
+
+
+
+- Cluster Setup
+
+    - Virtual Machine Setup
+
+    - Adding Nodes to the Cluster

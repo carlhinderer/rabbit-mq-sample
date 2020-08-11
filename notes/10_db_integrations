@@ -1,0 +1,37 @@
+-----------------------------------------------------------------------
+|  CHAPTER 10 - DATABASE INTEGRATIONS                                 |
+-----------------------------------------------------------------------
+
+- The pg_amqp PostgreSQL Extension
+
+    - Installing the pg_amqp extension
+
+    - Configuring the pg_amqp extension
+
+    - Publishing a message via pg_amqp
+
+
+
+- Listenging to PostgreSQL Notifications
+
+    - Installing the PostgreSQL LISTEN exchange
+
+    - Policy-based configuration
+
+    - Creating the exchange
+
+    - Creating and binding a test queue
+
+    - Publishing via NOTIFY
+
+
+
+- Storing Messages in InfluxDB
+
+    - InfluxDB Installation and Setup
+
+    - Installing the InfluxDB storage exchange
+
+    - Creating a test exchange
+
+    - Testing the exchange
