@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------
+|  CHAPTER 6 - MESSAGE PATTERNS VIA EXCHANGE ROUTING                  |
+-----------------------------------------------------------------------
+
+- Simple Routing Using the Direct Exchange
+
+    - Creating the application architecture
+
+    - Creating the RPC Worker
+
+    - Writing a simple RPC publisher
+
+
+
+- Broadcasting Messages via the Fanout Exchange
+
+    - Modifying the facial detection consumer
+
+    - Creating a simple image-hashing consumer
+
+
+
+- Selectively Routing Messages via the Topic Exchange
+
+
+
+- Selective Routing with the Headers Exchange
+
+
+
+- Exchange Performance Benchmarking
+
+
+
+- Going Meta: Exchange-to-Exchange Routing
+
+
+
+- Routing Mesages with the Consistent-Hashing Exchange

@@ -1,0 +1,31 @@
+-----------------------------------------------------------------------
+|  CHAPTER 4 - PERFORMANCE TRADE-OFFS IN PUBLISHING                   |
+-----------------------------------------------------------------------
+
+- Balancing Delivery Speed with Guaranteed Delivery
+
+    - What to expect with no guarantees
+
+    - RabbitMQ won’t accept non-routable messages with mandatory set
+
+    - Publisher Confirms as a lightweight alternative to transactions
+
+    - Using alternate exchanges for unroutable messages
+
+    - Batch processing with transactions
+
+    - RabbitMQ and atomic transactions
+
+    - Surviving node failures with HA queues
+
+    - HA queues with transactions 
+
+    - Persisting messages to disk via delivery-mode 2
+
+
+
+- When RabbitMQ Pushes Back
+
+    - Checking the connection status with rabbitpy
+
+    - Using the management API for connection status

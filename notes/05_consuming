@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------
+|  CHAPTER 5 - CONSUMING MESSAGES                                     |
+-----------------------------------------------------------------------
+
+- Basic.Get vs Basic.Consume
+
+    - Basic.Get
+
+    - Basic.Consume
+
+
+
+- Performance-Tuning Consumers
+
+    - Using no-ack mode for faster throughput
+
+    - Controlling consumer prefetching via quality of service settings
+
+    - Using transactions with consumers
+
+
+
+- Rejecting Messages
+
+    - Basic.Reject
+
+    - Basic.Nack
+
+    - Dead letter exchanges
+
+
+
+- Controlling Queues
+
+    - Temporary queues
+
+    - Permanent queues
+
+    - Arbitrary queue settings
